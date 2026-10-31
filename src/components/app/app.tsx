@@ -25,7 +25,7 @@ export const App = (): React.JSX.Element => {
       }
     >
       <ArticleParamsForm
-        isOpenInitial={false}
+        isSidebarOpenInitial={false}
         initialParams={defaultArticleState}
         onApply={setAppliedArticleState}
       />
